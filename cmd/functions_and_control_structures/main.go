@@ -47,7 +47,7 @@ func integerDivision(numerator int, denominator int) (int, int, error) {
 	var err error // error data type var, default value nil
 
 	if denominator == 0 {
-		err = errors.New("Cannot divide by 0")
+		err = errors.New("cannot divide by 0")
 		return 0, 0, err
 	}
 
